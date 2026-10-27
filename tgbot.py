@@ -2,7 +2,7 @@ import telebot
 import sqlite3
 from telebot import types
 
-conn = sqlite3.connect("history.db", check_same_thread = False) #без понятия для чего check_same_thread
+conn = sqlite3.connect("history.db", check_same_thread = False)
 cur = conn.cursor()
 
 cur.execute("""CREATE TABLE IF NOT EXISTS history ( 
