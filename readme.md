@@ -10,3 +10,5 @@
 
 перед запуском установить библиотеку в cmd - "pip install PyTelegramBotAPI", взять токен из бота @BotFather в Telegram.
 создать текстовик "token.txt" в папке с программой и вставить туда ключ.
+
+![example](example.png)
